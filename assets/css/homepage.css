@@ -30,6 +30,7 @@
 
 #Home-Page .main-logo{
     height:250px;
+    background: transparent;
 }
 
 #timer-section .timer-title{
