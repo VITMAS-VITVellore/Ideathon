@@ -10,7 +10,15 @@
     flex-direction:row;
     align-items:center;
     justify-content:center;
+    margin-bottom: 0;
     
+}
+
+#Home-Page .datehome{
+    font-size:35px;
+    font-family:'Poppins';
+    margin-bottom: 1rem;
+    margin-left: 7rem;
 }
 
 #Home-Page .desc{
@@ -25,8 +33,9 @@
 #Home-Page .title{
     font-family:'Jura';
     font-size:92px;
-     margin-bottom:0.5rem;
+    margin-bottom:0.5rem;
     color: azure;
+    
 }
 
 #Home-Page .main-logo{
@@ -78,7 +87,7 @@
     
 }
 #button{
-    margin-left: 9rem;
+    margin-left: 8rem;
     transition:0.3s;
     padding:1.2rem;
     border-radius:2rem;
@@ -97,11 +106,21 @@
     border:2px solid white;
 }
 
+
 @media screen and (max-width:450px){
     #main-heading{
         flex-direction: column !important;
+        
     }
     #Home-Page .title{
-        margin:0;
+        font-size: 20px;
+        margin-bottom: 1rem;
     }
+    #Home-Page .datehome{
+        margin:0;
+        font-size: 25px;
+        margin-left: 6rem;
+        margin-bottom: 1rem;
+    }
+    
 }

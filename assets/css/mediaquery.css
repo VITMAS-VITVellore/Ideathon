@@ -54,6 +54,7 @@
     font-family:'Jura';
     font-size:48px;
     margin-bottom:0.5rem;
+    margin-left: 3rem;
 }
 
 /* #timer{
@@ -81,6 +82,26 @@
 }
 
 #button{
-    width:fit-content;
+    padding:1.2rem;
+    margin-left: 8rem;
+    border-radius:40px;
+    width: 40%;
     
+}
+
+#content img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 70px ;
+}
+#Home-Page .main-logo{
+    height:300px;
+    background: transparent;
+}
+#h1.datehome{
+    font-size:5px; 
+    font-family: 'Poppins';  
+    margin-left:7rem; 
+    margin-bottom:1rem;
 }
