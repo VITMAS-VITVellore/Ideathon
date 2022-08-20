@@ -31,7 +31,7 @@
 /* general section styling */
 section{
     min-height:100vh;
-    background-color:var(--primary);
+    background-color:rgb(254, 196, 126);
 }
 
 /* scroll down Overlay */

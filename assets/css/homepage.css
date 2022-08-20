@@ -73,19 +73,19 @@
 }
 
 #tracks{
-    background-image: linear-gradient(to right, black, transparent);
+    background-image: linear-gradient(to right, #F39F86, transparent);
 }
 #timeline{
-    background-image: linear-gradient(to right, black, transparent);
+    background-image: linear-gradient(to right,#F39F86 , transparent);
 }
 #prize{
-    background-image: linear-gradient(to right, black, transparent);
+    background-image: linear-gradient(to right, #F39F86, transparent);
 }
 #sponsor{
-    background-image: linear-gradient(to right, black, transparent);
+    background-image: linear-gradient(to right, #F39F86, transparent);
 }
 #faqs{
-    background-image: linear-gradient(to right, black, transparent);
+    background-image: linear-gradient(to right, #F39F86, transparent);
     
 }
 #button{
