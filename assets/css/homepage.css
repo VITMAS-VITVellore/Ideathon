@@ -10,6 +10,7 @@
     flex-direction:row;
     align-items:center;
     justify-content:center;
+    
 }
 
 #Home-Page .desc{
@@ -29,7 +30,7 @@
 }
 
 #Home-Page .main-logo{
-    height:250px;
+    height:550px;
     background: transparent;
 }
 
@@ -57,6 +58,7 @@
 
 #date{
     margin:2rem;
+   
 }
 
 #tracks{
@@ -76,13 +78,14 @@
     
 }
 #button{
+    margin-left: 9rem;
     transition:0.3s;
     padding:1.2rem;
     border-radius:2rem;
     font-family: 'poppins';
     cursor:pointer;
     text-align:center;
-    width:15%;
+    width:40%;
     color:black;
     background:white;
     z-index:9;

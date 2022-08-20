@@ -52,3 +52,10 @@ section{
     transform:rotate(-90deg);
     margin-bottom:2.5rem;
 }
+
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100px ;
+}
