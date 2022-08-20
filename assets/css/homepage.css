@@ -35,6 +35,8 @@
     font-size:92px;
     margin-bottom:0.5rem;
     color: azure;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     
 }
 
@@ -110,7 +112,7 @@
 @media screen and (max-width:450px){
     #main-heading{
         flex-direction: column !important;
-        
+     
     }
     #Home-Page .title{
         font-size: 20px;
@@ -119,7 +121,7 @@
     #Home-Page .datehome{
         margin:0;
         font-size: 25px;
-        margin-left: 6rem;
+        margin-left: 3rem;
         margin-bottom: 1rem;
     }
     
