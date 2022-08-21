@@ -28,10 +28,12 @@
     font-weight:100;
 } */
 
-#Home-Page .main-logo{
+ .main-logo{
     height:190px;
 }
-
+.main-logothink{
+    height: 290px;
+}
 #Home-Page{
     color:white;
 }
