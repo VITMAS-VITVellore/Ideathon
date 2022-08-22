@@ -18,7 +18,7 @@
   animation: fadeIn 0.8s ease-in;
 }
 .border-animation {
-  background:transparent;
+  background-color: transparent;
   border-radius: 10px;
   position: relative;
 }
@@ -260,3 +260,10 @@
   animation: fadeInOut 8s 40s ease-in infinite;
 }
 
+@media screen and (max-width:450px){
+  .store-container{
+    line-height:0;
+  margin: 50px auto;
+  width: 100%;
+  }
+}
