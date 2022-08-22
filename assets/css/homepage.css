@@ -88,7 +88,7 @@
     background-image: linear-gradient(to right, #F39F86, transparent);
     
 }
-#button{
+#buttonhp{
     margin-left: 8rem;
     transition:0.3s;
     padding:1.2rem;
@@ -100,9 +100,10 @@
     color:black;
     background:white;
     z-index:9;
+    
 }
 
-#button:hover{
+#buttonhp:hover{
     color:white;
     background-color: #060C24;
     border:2px solid white;

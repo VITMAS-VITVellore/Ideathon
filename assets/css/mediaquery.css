@@ -83,12 +83,12 @@
     display:none;
 }
 
-#button{
+#buttonhp{
     padding:0.5rem 2rem;
     margin-left: 5rem;
     border-radius:40px;
     width: 40%;
-    
+   
 }
 
 #content img{
