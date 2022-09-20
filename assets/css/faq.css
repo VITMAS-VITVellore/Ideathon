@@ -61,7 +61,7 @@
 }
 
 .accordian-link:hover{
-    color:#fff6f6;
+    /* color:#fff6f6; */
     background-image: linear-gradient(to left,  #C3FF99 , #8ac1e8);
 }
 .accordian-link i{
@@ -113,7 +113,7 @@
     left: 1rem;
 }
 
-.answer:hover{
+/* .answer:hover{
     color:rgb(255, 254, 254);
     background-image: linear-gradient(to right,#92caf8,#d5e7f5);
 
@@ -122,7 +122,7 @@
     color:rgb(255, 254, 254);
     background-image: linear-gradient(to right,#92caf8,#d5e7f5);
 
-}
+} */
 
 .answer::before{
     content: "";

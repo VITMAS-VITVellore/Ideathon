@@ -1,0 +1,145 @@
+#about-us {
+    padding: 1% 10%;
+    height: fit-content;
+    font-family: 'Jura';
+    text-align: justify;
+    
+    color: black;
+}
+
+#about-us h1{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 4rem;
+    margin-bottom: 10%;
+    background: linear-gradient(#EF4D23,#FAAC16);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    font-size: 60px;
+    top: 5rem;
+    font-weight: 800;
+   /* animation: animateHead 2s infinite; */
+}
+/* @keyframes  animateHead{
+    from{
+        background-position:0%;
+    }
+    to{
+        background-position: 400% ;
+      }
+}   */
+
+
+#about-vitmas h2 {
+    text-align: right;
+}
+
+#about-us div img {
+    height:200px;
+    margin:2rem;
+}
+.cognition-logo{
+    height:250px !important;
+}
+#about-us div {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 2% 0;
+}
+
+#about-cognition div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-vitmas div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-sas div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-us h2{
+    margin-bottom: 5%;
+    color: black;
+    font-size:3rem;
+}
+#about-us .desc{
+    font-size:25px;
+    color:rgb(169, 166, 166);
+}
+@media (min-width:768px) {
+    #about-us h2{
+        font-size: 45px;
+    }
+    #about-us .desc{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width: 768px) {
+    #about-us {
+        padding: 5%;
+    }
+
+    #about-us h1{
+        font-size:2rem;
+    }
+    #about-us h2 {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    #about-us .desc{
+        font-size:20px;
+    }
+
+    #about-us span {
+        text-align: justify;
+    }
+
+    #about-cognition {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #about-vitmas {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about-sas {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #about-us div img {
+        height:100px;
+        margin:2rem;
+    }
+    .cognition-logo{
+        margin-top:2rem;
+        height:150px !important;
+    }
+    #about-us .desc{
+        font-size:15px;
+        color:rgb(169, 166, 166);
+    }
+    /* #about-us h1{
+        font-size: 50px;
+    } */
+}
+

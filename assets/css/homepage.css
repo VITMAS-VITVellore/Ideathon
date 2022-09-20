@@ -20,7 +20,14 @@
     margin-bottom: 1rem;
     margin-left: 7rem;
 }
-
+.ribbon {
+    max-width: 100%;
+    max-height: 100%;
+   }
+.content {
+    height: 600px;
+    width: 800px;
+   }
 #Home-Page .desc{
     font-family:'Poppins';
     font-weight:100;
@@ -34,7 +41,7 @@
     font-family:'Jura';
     font-size:92px;
     margin-bottom:0.5rem;
-    color: azure;
+    color: rgba(72,92,186);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     
@@ -118,7 +125,6 @@
 } */
 
 .circles{
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -132,7 +138,7 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.826);
     animation: animate 25s linear infinite;
     bottom: -150px;
     

@@ -66,7 +66,8 @@
     position: fixed;
     width: 100%;
     min-height: 100%;
-    background-color: #c0c0c052;
+    background-color: rgba(0, 0, 0, 0.758);
+    
     z-index: 10;
     transform: translateY(-100%);
     transition: all 0.5s ease-in-out;
@@ -84,7 +85,7 @@
   
   #overlay a {
     text-decoration: none;
-    color: #091855;
+    color: #fafafa;
     font-size: 1.8rem;
     /* margin: 1rem; */
     /* opacity: 0.5;
