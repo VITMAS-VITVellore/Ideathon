@@ -78,7 +78,7 @@
 }
 #about-us .desc{
     font-size:25px;
-    color:rgb(169, 166, 166);
+    color:  #091855;
 }
 @media (min-width:768px) {
     #about-us h2{
