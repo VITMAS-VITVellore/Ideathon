@@ -8,6 +8,9 @@
     --primary: rgba(249, 216, 118, 0.822);
     --secondary: #4384B4;
 }
+body{
+	background-image: linear-gradient(to right, #F39F86, rgb(254, 196, 126));
+}
 
 /* Base Styling  */
 *{

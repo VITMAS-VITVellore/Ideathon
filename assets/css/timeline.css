@@ -17,6 +17,16 @@
   margin-top: 0;
   width:100vw;
 } */
+
+#tim_head{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 70px;
+  margin-top: 5%;
+  padding: 4%;
+}
+
 .timeline ul li {
   list-style-type: none;
   position: relative;
