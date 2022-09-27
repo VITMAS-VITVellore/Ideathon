@@ -1,0 +1,32 @@
+/* The alert message box */
+.alert {
+    width:98vw;
+    padding:2rem;
+    background-color: var(--primary);
+    color: white;
+    text-align:center;
+    font-size:28px;
+    position:absolute;
+    /* margin-bottom:2rem; */
+    top:0;
+    z-index:10;
+  }
+  .yt-link:hover{
+    text-decoration: line-through;
+  }
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: grey;
+  }

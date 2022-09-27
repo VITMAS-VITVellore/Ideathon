@@ -3,58 +3,72 @@
     height: fit-content;
     font-family: 'Jura';
     text-align: justify;
-    
-    color: black;
+    background-image: linear-gradient(to right, #F39F86, transparent);
+    color: white;
+}
+.glass {
+  background: white;
+  min-height: 40vh;
+  width: 100%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
 }
 
-#about-us h1{
-    text-align: center;
-    margin-top: 0;
-    padding-top: 4rem;
-    margin-bottom: 10%;
-    background: linear-gradient(#EF4D23,#FAAC16);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
 
-    font-size: 60px;
-    top: 5rem;
-    font-weight: 800;
-   /* animation: animateHead 2s infinite; */
-}
-/* @keyframes  animateHead{
-    from{
-        background-position:0%;
-    }
-    to{
-        background-position: 400% ;
-      }
-}   */
 
 
 #about-vitmas h2 {
     text-align: right;
+    margin-right: 5%;
+    
 }
 
 #about-us div img {
     height:200px;
     margin:2rem;
 }
-.cognition-logo{
-    height:250px !important;
+.ideathon-logo{
+    height: 260px !important;
+    width: 260px;
+    
+    border-radius: 48%;
+}
+.vitmas-logo{
+  height:260px !important;
+    width: 260px;
+    
+    border-radius: 48%;
+}
+.sas-logo{
+  height:260px !important;
+    width: 260px;
+    
+    border-radius: 48%;
 }
 #about-us div {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+     align-items: center; 
     padding: 2% 0;
 }
 
-#about-cognition div {
+#about-ideathon div {
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+#about-sas h2 {
+  margin-bottom: 5%;
+  color: rgba(255, 0, 38, 0.901);
+  font-size:4rem;
+  margin-right: 5%;
 }
 
 #about-vitmas div {
@@ -73,12 +87,16 @@
 
 #about-us h2{
     margin-bottom: 5%;
-    color: black;
-    font-size:3rem;
+    color: rgba(0, 0, 0, 0.901);
+    font-size:4rem;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 #about-us .desc{
     font-size:25px;
-    color:  #091855;
+    color:rgba(255, 60, 0, 0.933);
+    margin-left: 10%;
+    margin-right: 10%;
 }
 @media (min-width:768px) {
     #about-us h2{
@@ -110,10 +128,11 @@
         text-align: justify;
     }
 
-    #about-cognition {
+    #about-ideathon {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        position: relative;
     }
     #about-vitmas {
         flex-direction: column;
@@ -130,16 +149,39 @@
         height:100px;
         margin:2rem;
     }
-    .cognition-logo{
+    .ideathon-logo{
         margin-top:2rem;
-        height:150px !important;
+        height:130px !important;
+        width: 130px;;
+    }
+    .vitmas-logo{
+        margin-top:2rem;
+        height:120px !important;
+        width: 120px;;
+    }
+    .sas-logo{
+        margin-top:2rem;
+        height:130px !important;
+        width: 130px;;
     }
     #about-us .desc{
         font-size:15px;
-        color:rgb(169, 166, 166);
     }
-    /* #about-us h1{
+     #about-us h1{
         font-size: 50px;
-    } */
+    }
+    .glass {
+  background: white;
+  min-height:10vh;
+  width: 100%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
 }
 
+}

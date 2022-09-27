@@ -11,14 +11,15 @@
 body{
 	background-image: linear-gradient(to right, #F39F86, rgb(254, 196, 126));
 }
-
 /* Base Styling  */
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 /*  */
+
 .flexBox{
     display: flex;
     flex-direction: row;
@@ -30,7 +31,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 40px;
 }
 /* general section styling */
 section{
@@ -38,9 +38,38 @@ section{
     background-color:rgb(254, 196, 126);
 }
 
+/* discord button */
+#discord{
+    position:fixed;
+    bottom:2rem;
+    right:2rem;
+    z-index: 2;
+}
+.discord-logo{
+    color:#060C24;
+    font-size:32px;
+    transition:0.3s all ease;
+    /* animation: fly 2s linear infinite; */
+}
+.discord-logo:hover{
+    transform:rotate(360deg);
+}
+
+.discord-text{
+    color:#060C24;
+    font-family:'Poppins';
+    font-weight:100;
+    margin-top:0.2rem;
+}
+/* @keyframes fly {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, 0px); }  
+} */
+
 /* scroll down Overlay */
 #scroll-down{
-    color:white;
+    color:#060C24;
     position:fixed;
     bottom:0;
     left:2rem;
@@ -50,24 +79,30 @@ section{
 .line{
     height:4rem;
     width:1px;
-    background-color:white;
+    background-color:#060C24;
 }
 .text{
     transform:rotate(-90deg);
     margin-bottom:2.5rem;
 }
-
-#content img {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 100px ;
+#particles-js{
+    height:100vh;
+    width:100%;
+    position:absolute;
 }
-/* Preloader  */
-/* .preloader{
-    background: var(--primary);
-    height:100%;
-    width: 100%;
-    position: fixed;
-    z-index: 999999;
-} */
+
+
+
+@media screen and (max-width:450px){
+    .discord-text{
+        display:none;
+    }
+    .discord-logo{
+        font-size:20px !important;
+        padding:1.2rem;
+       
+    }
+    #discord{
+        right:0;
+    }
+}

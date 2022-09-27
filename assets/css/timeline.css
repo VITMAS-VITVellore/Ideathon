@@ -13,10 +13,10 @@
   overflow-x: hidden;
   padding-bottom: 50px;
 } */
-/* .timeline{
+.timelines{
   margin-top: 0;
   width:100vw;
-} */
+}
 
 #tim_head{
   text-align: center;
@@ -125,7 +125,7 @@
   } */
 
   .timeline ul li {
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .timeline ul li div {
     width: calc(100vw - 91px);
